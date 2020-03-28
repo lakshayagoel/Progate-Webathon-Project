@@ -1,0 +1,309 @@
+li{
+    list-style:none;
+    float:left;
+    padding: 20px 20px;
+    color:white;
+    cursor:pointer;
+    
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.815);
+    transition: all 0.5s;
+    padding: 20px 20px;
+}
+li a{
+    color:white;
+    text-decoration: none;
+    width:100%;
+    height:100%;
+}
+
+body{
+    font-family: Open Sans,Lato,sans-serif!important;
+    
+    
+}
+
+.header{
+    background-color:#252E38;
+    height:60px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom:20px;
+    z-index: 10;
+   
+    
+}
+
+.header-logo{
+    float:left;
+    font-size:36px;
+    padding:18px 40px;
+    color:white;
+
+}
+
+.login{
+    color:white;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+
+.header-right{
+    float:right;
+    padding: 20px 60px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+    cursor:pointer;
+    margin-right:20px;
+    margin-bottom:10px;
+    
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.815);
+
+  }
+.header-right a {
+    
+    color: white;
+    display: block;
+  }
+
+
+
+.main{
+    background-color:#252E38;
+    height:1200px;
+}
+
+.cont1{
+    color:#F1BA13;
+    font-weight:700;
+    font-size:40px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img18.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    
+    
+  }
+
+
+span{
+    color:red;
+    
+    border-radius: 50px;
+}
+.btn-wrapper {
+    margin: 20px 0;
+    background-color:rgb(228, 215, 41);
+        padding: 12px 24px;
+        color: white;
+        display: inline-block;
+        opacity: 0.8;
+        border-radius: 4px;
+        margin-top:35px;
+        cursor:pointer;
+    box-shadow:0 8px rgb(175, 133, 7);
+  }
+.btn-wrapper:hover{
+    
+    opacity:1;
+}
+
+.btn-wrapper:active{
+    position:relative;
+    top:7px;
+    box-shadow:none;
+}
+.get-started{
+    color:darkslategrey;
+    text-decoration:none;
+    font-weight:300;
+}
+
+.heading{
+    color:#F1BA13;
+    font-weight:900;
+    margin-top:50px;
+    margin-left:90px;
+    font-size:36px;
+}
+
+.text{
+    color:#F1BA13;
+    margin-left:90px;
+    font-size:20px;
+
+}
+.tex{
+    color:white;
+}
+
+.im1{
+    height:350px;
+    width:400px;
+    float:right;
+    padding-right:100px;
+}
+
+.head{
+    color:white;
+    text-align: center;
+}
+.container2{
+    background-color:#2D3237;
+    margin:100px 0;
+    padding-bottom:150px;
+    padding-top:5px;
+}
+
+.im2{
+    height:80px;
+    width:100px;
+    float: left;
+    padding-left:55px;
+    padding-top:20px;
+    padding-right:92px;
+    padding-bottom:20px;
+}
+
+.heading2{
+    color:#F1BA13;
+    float:right;
+    font-weight:900;
+    margin-left:90px;
+    font-size:36px;
+    padding-right:60px;
+    padding-top:1px;
+}
+
+.edit{
+    padding-top:90px;
+    text-align: right;
+    padding-right:60px;
+}
+
+.im3{
+    height:350px;
+    width:450px;
+    float:left;
+    padding-left:60px;
+}
+
+.lesson-wrapper{
+    background-color: #252E38;
+    
+}
+
+
+
+
+
+.now{
+    text-align: center;
+    font-size:45px;
+
+}
+
+.write{
+    color:white;
+    text-align:center;
+    padding-top:20px;
+    font-weight: lighter;
+    font-size:29px;
+}
+
+.contact-form{
+    text-align:center;
+    font-size:20px;
+}
+
+.section-title{
+    color:white;
+    font-size:30px;
+    padding-top:50px;
+}
+
+.btn-wrapper1{
+    color:darkslategrey;
+    background-color: rgb(228, 215, 41);
+    height:40px;
+    width:110px;
+    font-size:22px;
+    display: inline-block;
+    opacity:0.8;
+    cursor:pointer;
+    border-radius: 4px;
+    box-shadow:0 6px rgb(175, 133, 7);
+    text-decoration: none;
+    border: none;
+
+}
+
+.btn-wrapper1:active{
+    box-shadow:none;
+    position:relative;
+    top:6px;
+}
+
+.btn-wrapper1:hover{
+    opacity: 1;
+    
+}
+
+textarea{
+    height:70px;
+    width:230px;
+}
+
+
+.col1{
+    color:white;
+}
+
+.opt{
+    color:rgb(223, 59, 18);
+}
+.footer{
+    padding-top:120px;
+}
+
+.container3{
+    background-color:#2D3237;
+    margin:100px 0;
+    padding-bottom:150px;
+    padding-top:5px;
+    height:200px;
+    
+}
+.footer-logo{
+    color:white;
+    font-size:60px;
+    padding-top:60px;
+    padding-left:30px;
+    float:left;
+
+}
+.foot{
+    color:#F1BA13;
+    position:absolute;
+    text-align:center;
+    font-size:20px;
+}
+.footer-list{
+    float:right;
+    padding-right:80px;
+    padding-top:40px;
+
+}
